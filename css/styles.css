@@ -1,0 +1,139 @@
+body {
+    background-color:black;
+}
+
+header {
+    max-width: 100%;
+    min-width: 660px;
+    background-color:#f9f9f9;
+    color: rgb(100, 99, 99);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tittle {
+    width: 300px;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+#sub-tittle {
+    display: flex;
+    margin: 0 auto;
+    font-size: 20px;
+    align-items: center;
+     
+}
+
+#sub-tittle a{
+    color: black;
+    color: rgb(100, 99, 99);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#sub-tittle a:hover{
+    color: black;
+    color: rgb(100, 99, 99);
+    margin: 0 10px;
+    text-decoration: none;
+    border:1px solid #615b5b;
+    padding: 5px;
+}
+
+#main {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mypic {
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-image: url("../img/1.jpeg");
+    background-repeat: no-repeat;
+    transition: background-image 1.0S ease;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#mypic {
+    width: 100%;
+    height: 800px;
+    
+}
+
+#mypic-p {
+    width: 600px;
+    height: 300px;
+    background-color: rgba(171, 168, 168, 0.228);
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#mypic-p p{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+/* ---------------------------------------------------- */
+footer {
+    letter-spacing: 3px;
+    background-color: black;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-box {
+    color: #f9f9f9;
+    margin: 0;
+}
+#footer-box h2{
+    margin: 40px 0px 0px 40px;
+}
+#footer-box p{
+    margin: 0px 0px 0px 40px;
+}
+
+#footer-box2 {
+   display: flex;
+   width: 400px;
+   justify-content: space-between;
+}
+
+#footer-box2 a {
+    text-decoration: none;
+    color: #f9f9f9;
+    height: 20px;
+    margin-top: 40px;
+}
+
+#footer-box2 a:hover{
+    text-decoration: none;
+    color: #f9f9f9;
+    padding: 5px;
+    border:1px solid gray;
+}
+
+#footer-top {
+    margin: 40px 40px;
+    width: 40px;
+    align-items: center;
+}
+
+#footer-top a{
+    color: #f9f9f9;
+    text-decoration: none;
+    align-items: center;
+}
